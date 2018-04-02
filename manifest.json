@@ -1,0 +1,15 @@
+{
+  "name": "RESTful Blog Application",
+  "short_name": "Blog_App",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A RESTful Blog Application",
+  "lang": "en-US",
+  "theme_color": "#007bff",
+    "icons": [{
+   "src": "RestfulBlogApp/public/images/UserProfile.png",
+   "sizes": "512x512",
+   "type": "blogApp/png"
+ }]
+  }

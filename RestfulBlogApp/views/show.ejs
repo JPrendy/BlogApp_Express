@@ -8,11 +8,12 @@
             <h4 class="card-title"><%= blog.title %></h4>
             
             <p class="card-text"><%- blog.body %></p>
-            <h5><%= blog.created.toDateString() %></h5>
+      <p class="publishDate">Published: <%= blog.created.toDateString() %></p>
+      <a class="btn btn-outline-success" href="/blogs/<%= blog._id %>/edit">Edit</a>
+
 <form id="deleteForm" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
 <button  class="btn btn-outline-danger">Delete</button>
 </form>
-<a class="btn btn-outline-success" href="/blogs/<%= blog._id %>/edit">Edit</a>
 
           </div>
  </div>

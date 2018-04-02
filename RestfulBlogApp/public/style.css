@@ -1,4 +1,73 @@
+body{
+    min-height: 500px;
+}
+
+footer{
+    background-color: #f8f9fa;  
+    text-align: center;
+    height: 60px;
+    margin-top: 50px;
+}
+
 .container{
     margin-top: 50px;
     border: 1px solid #dde1e6;
+}
+
+.noBorder{
+    border: 0px;
+}
+
+.col-md-8{
+    border: 1px solid #dde1e6;  
+}
+
+#deleteForm{
+    display: inline;
+}
+
+.card{
+    margin: 10px;
+}
+
+.indexImage{
+    width:200px; 
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.cbIndex{
+  float: left;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.headerBlog{
+    text-align: center;
+}
+
+.publishDate{
+    display: inline;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-right: 60px;
+    color: gray;
+}
+
+.centerCard{
+    margin: 0 auto;
+}
+
+.imageCenter{
+    margin: 0 auto;
+    width:400px;
+    height:400px;
 }

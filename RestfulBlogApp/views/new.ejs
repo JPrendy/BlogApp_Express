@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+
+<div class="container rounded">
+        <h2>Add a new post</h2>
+        <form action="/blogs" method="POST">
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <!--It is in the blog[title] format because of how body-parser works-->
+            <input type="text" class="form-control" id="title" placeholder="Title" name="blog[title]">
+          </div>
+          <div class="form-group">
+            <label for="image">Image Url:</label>
+            <input type="text" class="form-control" id="image" placeholder="Image" name="blog[image]">
+          </div>
+           <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description"  class="form-control" placeholder="Your blog description goes in here" name="blog[body]"></textarea>
+          </div>
+        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</div>
+
+<% include ./partials/footer %>

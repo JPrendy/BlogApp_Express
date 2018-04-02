@@ -1,0 +1,17 @@
+<% include ./partials/header %>
+
+<div class="container rounded">
+        <h2>Card Image</h2>
+        <div class="card" style="width:400px; height: 400px">
+          <img class="card-img-top" src="<%= blog.image %>" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title"><%= blog.title %></h4>
+            
+            <p class="card-text"><%- blog.body %></p>
+            <h5><%= blog.created.toDateString() %></h5>
+
+          </div>
+ </div>
+</div>
+
+<% include ./partials/footer %>
